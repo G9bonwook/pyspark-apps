@@ -1,5 +1,5 @@
 import time
-from pyspark.sql.connect.session import SparkSession
+from pyspark.sql import SparkSession
 
 spark = SparkSession \
     .builder \
